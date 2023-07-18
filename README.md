@@ -7,3 +7,18 @@ NLSEmagic is freely distributed for use and modification.  However, we ask that 
   
 NLSEmagic: Nonlinear Schrödinger Equation Multidimensional Matlab-based GPU-accelerated Integrators using Compact High-order Schemes
 R.M. Caplan. Computer Physics Communications. 184,4 (2013) 1250-1271.  
+
+Here are some example simulations run with NLSEmagic
+
+One-dimensional co-moving dark soliton solution:  
+
+![NLSEMagic1D](NLSEMagic1D_DarkSoliton.gif)
+
+Two-dimensional steady-state dark vortex solution:  
+
+![NLSEMagic2D](NLSEMagic2D_DarkVortex.gif)
+
+Four three-dimensional dark vortex rings merging:
+
+![NLSEMagic3D](NLSEMagic3D_DarkVortexRings.gif)
+
