@@ -1,0 +1,54 @@
+NLSEmagic2D and NLSEmagic3D are works in progress!
+
+
+NLSEmagic Tasks:
+
+2D:
+ - Create NLSEmagic2D_GPU and replace 2D mem calls with 1D.
+   - compute_F_CD
+   - compute_F_2SHOC
+   - compute_D
+   - compute_F_CD_F
+   - compute_F_2SHOC_F
+   - compute_D_F
+   - NLSE2D_TAKE_STEPS_CUDA
+   - NLSE2D_TAKE_STEPS_CUDA_F
+ - Modify NLSEmagic2D.m to call new codes.
+ - Modify FRS to call new codes.
+ - TEST
+ - Create new READMEs.
+
+ 3D:
+ - Create 3D code files
+ - Create proper install .m script.
+ - Create NLSEmagic3D_Take_Steps_CPU.c for calling serial codes.
+ - Create NLSEmagic3D_CPU and insert all codes.
+ - Create NLSEmagic3D_Take_Steps_GPU.c for calling serial codes.
+ - Create NLSEmagic3D_GPU and insert all codes, and replace custom 3D block with true 3D block.
+ - Modify NLSEmagic3D.m to call new codes.
+ - Modify FRS to call new codes.
+ - Create new readme
+ - Upload new codes to web site.
+
+ REST:
+
+ - Write new general MATLAB-CUDA plugin-setup guide.
+
+ - Write new NLSEmagic install guide.
+
+ - Add occupancy API to select block size?  Add output option for pre-call?
+
+ - Add OpenMP to serial codes 1D,2D,3D, compile with proper linkage, test speed.
+
+ - Do new speedup tests for all codes including OpenMP.
+
+ - Write new version document
+
+
+
+
+
+
+
+
+
